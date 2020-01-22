@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=EB+Garamond|Proza+Libre&display=swap");
+.masthead-brand {
+  background-image: url("../images/masthead-logo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150px;
+  min-width: 226px;
+  width: auto;
+  margin-top: -16px; }
+
+.nav-masthead {
+  margin-bottom: 0.9375rem; }
+
+h1 {
+  font-family: "EB Garamond", serif;
+  font-size: 2.625rem; }
+
+p {
+  font-family: "Proza Libre", sans-serif; }
+
+/*# sourceMappingURL=custom.css.map */

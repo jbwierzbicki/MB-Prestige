@@ -1,0 +1,27 @@
+
+// Utilities
+@import "assets/master";
+
+
+.masthead-brand {
+    background-image: url("../images/masthead-logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+    min-width: 226px;
+    width: auto;
+    margin-top: -16px;
+}
+
+.nav-masthead {
+    margin-bottom: 0.9375rem;
+}
+
+h1 {
+    font-family: $font-family-header;
+    font-size: $sm-font-size-h1;
+}
+
+p {
+    font-family: $font-family-content;
+}
