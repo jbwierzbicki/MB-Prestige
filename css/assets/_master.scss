@@ -1,11 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond|Proza+Libre&display=swap');
 
+/* Colors */
 $color-primary: #E6B642;
 $color-secondary: #161E27;
 
+
+/* Font Families */
 $font-family-header: 'EB Garamond', serif;
 $font-family-content: 'Proza Libre', sans-serif;
 
+
+/* Font Sizes */
 $lg-font-size-h1: 3.375rem;
 $sm-font-size-h1: 2.625rem;
+
+$font-size-h6: 1.125rem;
+
+$font-size-button: 1.125rem;
+$font-style-button: normal;
+$font-weight-button: 500;
 
