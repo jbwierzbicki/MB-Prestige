@@ -42,8 +42,7 @@
   .wrapper {
     display: grid;
     grid-gap: 20px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 20px;
     grid-template-areas: 
       "masthead-brand"
       "navbar"
