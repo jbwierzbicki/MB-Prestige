@@ -38,6 +38,14 @@
   grid-area: calltoaction-buttons;
 }
 
+#footer {
+  grid-area: footer;
+}
+
+#sub-wrapper {
+  grid-area: sub-wrapper;
+}
+
 
   .wrapper {
     display: grid;
@@ -51,29 +59,44 @@
       "infopanel1"
       "infopanel2"
       "infopanel3"
-      "process1"
-      "process2"
-      "process3"
+      "sub-wrapper"
       "calltoaction"
       "calltoaction-buttons"
       "footer"
       ;
   }
 
+
   @media (min-width: 700px) {
     .wrapper {
+      grid-gap: 20px;
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-areas: 
         "masthead-brand        navbar                navbar              "
         "headline              headline              .                   "
         "contact-button        .                     .                   "
         "infopanel1            infopanel2            infopanel3          "
-        "process1              process2              process3            "
+        "sub-wrapper           sub-wrapper           sub-wrapper         "
         "calltoaction          calltoaction          calltoaction        "
         "calltoaction-buttons  calltoaction-buttons  calltoaction-buttons"
         "footer                footer                footer              "
      }
+     .sub-wrapper {
+      background: blue;
+
+      grid-gap: 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-areas: 
+      "process1   process2    process3"
+      ;
+    }
+
      nav ul {
        flex-direction: column;
+     }
+     .sub-wrapper > div {
+       margin: 0 15px;
+       
      }
   }

@@ -41,7 +41,7 @@ body {
 }
 
 .cover-container {
-  max-width: 71.25rem;
+  
 }
 
 .infopanel {
@@ -88,7 +88,7 @@ body {
  *  #contact-button
  */
  .contact-button {
-
+  margin-bottom: 20px;
  }
 
  .contact-buttonbtn {
@@ -100,7 +100,7 @@ body {
  *  #infopanel1
  */
   .infopanel1 {
-    margin-top: 20px;
+
 }
 
  .infopanel1-img {
@@ -136,7 +136,20 @@ background-image:linear-gradient(rgba(20, 20, 20, 0) 65.62%, #131414 100%), url(
 /*
  *  #infopanel3
  */
+ .infopanel3 {
 
+}
+
+.infopanel3-img {
+background-image:linear-gradient(rgba(20, 20, 20, 0) 65.62%, #131414 100%), url("../images/scott-webb-aH0M31_mOfw-unsplash.jpg");
+ 
+}
+.infopanel3-headertext {
+
+}
+.infopanel3-subtext {
+
+}
 
  /*
  *  #process1
