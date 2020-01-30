@@ -3,6 +3,9 @@
 @import "assets/master";
 
 
+/*
+ *  #masthead-brand
+ */
 .masthead-brand {
     background-image: url("../images/masthead-logo.svg");
     background-repeat: no-repeat;
@@ -13,6 +16,32 @@
     margin-top: -16px;
 }
 
+/*
+ *  #navbar
+ */
+.navbar-div {
+    background: #161E27;
+    box-shadow: 0px 4px 0px #E6B642;
+    margin: 0 -15px;
+
+}
+
+ .navbar-main * {
+    display: inline-block;
+}
+
+.navbar-link {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar-contacticon {
+    color: #E6B642;
+    margin-left: 3px;
+}
+
+
+/* ----------------------------- */
 .nav-masthead {
     margin-bottom: 0.9375rem;
 }
@@ -20,6 +49,12 @@
 h1 {
     font-family: $font-family-header;
     font-size: $sm-font-size-h1;
+}
+
+h3 {
+    font-family: $font-family-header;
+    font-size: $font-size-h3;
+    line-height: 1.938rem;
 }
 
 p {
@@ -40,3 +75,4 @@ h6 {
     font-style: $font-style-button;
     font-weight: $font-weight-button;
 }
+

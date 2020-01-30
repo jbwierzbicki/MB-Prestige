@@ -1,0 +1,80 @@
+
+
+#masthead-brand {
+  grid-area: masthead-brand;
+  
+}
+#navbar {
+  grid-area: navbar;
+}
+#headline {
+  grid-area: headline;
+}
+#contact-button {
+  grid-area: contact-button;
+}
+#infopanel1 {
+  grid-area: infopanel1;
+}
+#infopanel2 {
+  grid-area: infopanel2;
+}
+#infopanel3 {
+  grid-area: infopanel3;
+}
+#process1 {
+  grid-area: process1;
+}
+#process2 {
+  grid-area: process2;
+}
+#process3 {
+  grid-area: process3;
+}
+#calltoaction {
+  grid-area: calltoaction;
+}
+#calltoaction-buttons {
+  grid-area: calltoaction-buttons;
+}
+
+
+  .wrapper {
+    display: grid;
+    grid-gap: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    grid-template-areas: 
+      "masthead-brand"
+      "navbar"
+      "headline"
+      "contact-button"
+      "infopanel1"
+      "infopanel2"
+      "infopanel3"
+      "process1"
+      "process2"
+      "process3"
+      "calltoaction"
+      "calltoaction-buttons"
+      "footer"
+      ;
+  }
+
+  @media (min-width: 700px) {
+    .wrapper {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-areas: 
+        "masthead-brand        navbar                navbar              "
+        "headline              headline              .                   "
+        "contact-button        .                     .                   "
+        "infopanel1            infopanel2            infopanel3          "
+        "process1              process2              process3            "
+        "calltoaction          calltoaction          calltoaction        "
+        "calltoaction-buttons  calltoaction-buttons  calltoaction-buttons"
+        "footer                footer                footer              "
+     }
+     nav ul {
+       flex-direction: column;
+     }
+  }
