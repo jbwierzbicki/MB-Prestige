@@ -22,6 +22,11 @@
 #infopanel3 {
   grid-area: infopanel3;
 }
+
+#process-header {
+  grid-area: process-header;
+}
+
 #process1 {
   grid-area: process1;
 }
@@ -44,6 +49,8 @@
 
 #sub-wrapper {
   grid-area: sub-wrapper;
+  margin-left: -20px;
+  margin-right: -20px;
 }
 
 
@@ -88,7 +95,8 @@
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-areas: 
-      "process1   process2    process3"
+      ".          process-header    .       "
+      "process1   process2          process3"
       ;
     }
 
