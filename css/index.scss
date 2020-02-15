@@ -152,9 +152,21 @@ background-image:linear-gradient(rgba(20, 20, 20, 0) 65.62%, #131414 100%), url(
 }
 
  /*
+ *  #sub-wrapper
+ */
+.sub-wrapper {
+  background: #141414;
+}
+
+
+ /*
  *  #process-header
  */
- 
+ .process-headingtext {
+  font-weight: 500;
+  color: white;
+  margin-bottom: 0;
+}
 
 
  /*
