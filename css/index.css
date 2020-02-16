@@ -51,6 +51,34 @@ body {
   color: rgba(255, 255, 255, 0.75);
   margin: 0 15px 15px 15px; }
 
+.process-number {
+  width: 60px;
+  height: 60px;
+  background: rgba(230, 182, 66, 0.8);
+  border-radius: 100px;
+  align-items: center;
+  display: inline-block; }
+
+.process-numbertext {
+  color: #161E27;
+  font-size: 3.375rem;
+  line-height: 60px;
+  margin: 0;
+  height: 60px; }
+
+.process-headertext {
+  margin: 15px 30px 20px 30px; }
+
+.process-headertext h3 {
+  color: white; }
+
+.process-subtext {
+  color: rgba(255, 255, 255, 0.75);
+  margin: 0 30px 15px 30px; }
+
+.process-div {
+  margin-bottom: 50px; }
+
 /*
  *  #headline
  */
@@ -87,11 +115,15 @@ body {
 *  #sub-wrapper
 */
 .sub-wrapper {
-  background: #141414; }
+  background: #141414;
+  margin: 40px 0 30px 0; }
 
 /*
 *  #process-header
 */
+.process-header {
+  margin: 25px 30px 50px 30px; }
+
 .process-headingtext {
   font-weight: 500;
   color: white;
@@ -109,9 +141,17 @@ body {
 /*
 *  #calltoaction
 */
+.calltoaction-text {
+  font-weight: 500;
+  color: white;
+  margin-bottom: 0; }
+
 /*
 *  #calltoaction-buttons
 */
+.services-buttonbtn {
+  margin-bottom: 15px; }
+
 /*
 *  #footer
 */

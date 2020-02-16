@@ -76,6 +76,7 @@
 
   @media (min-width: 700px) {
     .wrapper {
+      padding: 0;
       grid-gap: 20px;
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-areas: 
@@ -90,7 +91,7 @@
      }
      .sub-wrapper {
       background: blue;
-
+      margin: 0 -10.42vw !important;
       grid-gap: 20px;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
