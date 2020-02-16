@@ -8,6 +8,9 @@
     box-shadow: none;
     margin: 37px 0 0 0; }
 
+  .masthead-brand {
+    background-position-x: left; }
+
   .navbar-link-contact {
     background: #161E27;
     box-shadow: 0px 4px 0px #E6B642;

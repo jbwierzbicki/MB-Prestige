@@ -29,7 +29,10 @@ body {
   background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../images/index-page-bg.jpg");
   background-size: cover;
   background-position: center;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto; }
 
 .infopanel {
   background: #141414;
