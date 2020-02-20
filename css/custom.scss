@@ -3,16 +3,44 @@
 @import "assets/master";
 
 
+/*
+ *  #masthead-brand
+ */
 .masthead-brand {
     background-image: url("../images/masthead-logo.svg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
+    background-size: contain;
     height: 150px;
-    min-width: 226px;
     width: auto;
-    margin-top: -16px;
+    margin-top: -10px !important;
 }
 
+/*
+ *  #navbar
+ */
+.navbar-div {
+    background: #161E27;
+    box-shadow: 0px 4px 0px #E6B642;
+    margin: 0 -20px;
+}
+
+ .navbar-main * {
+    display: inline-block;
+}
+
+.navbar-link {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar-contacticon {
+    color: #E6B642;
+    margin-left: 3px;
+}
+
+
+/* ----------------------------- */
 .nav-masthead {
     margin-bottom: 0.9375rem;
 }
@@ -22,13 +50,56 @@ h1 {
     font-size: $sm-font-size-h1;
 }
 
+h3 {
+    font-family: $font-family-header;
+    font-size: $font-size-h3;
+    line-height: 1.938rem;
+}
+
 p {
     font-family: $font-family-content;
+}
+
+h6 {
+    font-family: $font-family-content;
+    font-size: $font-size-h6;
 }
 
 .button-primary {
     background: $color-primary;
     box-shadow: 0px 4px 0px $color-secondary;
     border-radius: 0;
-    color: white;
+    color: $color-secondary;
+    font-size: $font-size-button;
+    font-style: $font-style-button;
+    font-weight: $font-weight-button;
+    font-family: $font-family-header;
+    text-shadow: 0px 0px 0px #161E27;
 }
+
+.button-secondary {
+    background: $color-secondary;
+    border-radius: 0;
+    color: $color-primary;
+    font-size: $font-size-button;
+    font-style: $font-style-button;
+    font-weight: $font-weight-button;
+    font-family: $font-family-header;
+    text-shadow: 0px 0px 0px $color-primary;
+}
+
+.button-primary:hover {
+    color: $color-secondary;
+    text-decoration: none;
+}
+
+.button-secondary:hover {
+    color: $color-primary;
+    text-decoration: none;
+}
+
+footer {
+    margin: 50px -20px 0 -20px;
+}
+
+
