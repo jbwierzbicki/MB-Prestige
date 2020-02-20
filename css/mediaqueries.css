@@ -24,6 +24,53 @@
     padding: 7px 25px; }
 
   .navbar-contacticon {
-    margin-left: 7px; } }
+    margin-left: 7px; }
+
+  .headline {
+    margin-top: 100px; }
+
+  .contact-button {
+    margin-top: 15px;
+    margin-bottom: 100px; }
+
+  .sub-wrapper {
+    margin-top: 80px;
+    padding-top: 80px;
+    padding-bottom: 100px; }
+
+  .process-header {
+    margin-bottom: 55px !important; }
+
+  .process-headertext {
+    margin-left: 0px;
+    margin-right: 0px; }
+
+  .process-subtext {
+    margin-left: 0px;
+    margin-right: 0px; }
+
+  .calltoaction {
+    margin-top: 150px;
+    text-align: center; }
+
+  .calltoaction-buttons {
+    margin-top: 30px;
+    margin-bottom: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+  .calltoaction-buttons > .services-buttonbtn, .calltoaction-buttons > .contact-buttonbtn {
+    margin: 0 25px; }
+
+  .services-buttonbtn {
+    margin-bottom: 0;
+    padding: 10px 20px;
+    font-size: 22px; }
+
+  .contact-buttonbtn {
+    box-shadow: none;
+    padding: 10px 20px;
+    font-size: 22px; } }
 
 /*# sourceMappingURL=mediaqueries.css.map */

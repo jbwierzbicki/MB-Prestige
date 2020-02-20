@@ -88,6 +88,16 @@ h6 {
     text-shadow: 0px 0px 0px $color-primary;
 }
 
+.button-primary:hover {
+    color: $color-secondary;
+    text-decoration: none;
+}
+
+.button-secondary:hover {
+    color: $color-primary;
+    text-decoration: none;
+}
+
 footer {
     margin: 50px -20px 0 -20px;
 }

@@ -90,8 +90,10 @@
         "footer                footer                footer              "
      }
      .sub-wrapper {
-      background: blue;
-      margin: 0 -10.42vw !important;
+      margin-left: -10.42vw !important;
+      margin-right: -10.42vw !important;
+      padding-left: 10.42vw !important;
+      padding-right: 10.42vw !important;
       grid-gap: 20px;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;

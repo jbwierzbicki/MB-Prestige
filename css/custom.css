@@ -74,6 +74,14 @@ h6 {
   font-family: "EB Garamond", serif;
   text-shadow: 0px 0px 0px #E6B642; }
 
+.button-primary:hover {
+  color: #161E27;
+  text-decoration: none; }
+
+.button-secondary:hover {
+  color: #E6B642;
+  text-decoration: none; }
+
 footer {
   margin: 50px -20px 0 -20px; }
 
